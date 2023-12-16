@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   </tbody>
+    </table><BR>
+    <h1>To make a row span when value is same </h1>
+    <table border="2">
+        <thead>
+            <th>student id</th>
+            <th>name</th>
+            <th>gender</th>
+            <th>age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1231</td>
+                <td>RAM</td>
+                <td>MALE</td>
+                <td rowspan="3">18</td>
+                <!-- WHEN ALL VALUE IS SMAE TO USE rowspan key wold -->
+            </tr>
+
+            <tr>
+                <td>1232</td>
+                <td>ROHAN</td>
+                <td>MALE</td>
+
+            </tr>
+            <tr>
+                <td>1233</td>
+                <td>RAHUL</td>
+                <td>MALE</td>
+
+
+
+        </tbody>
+    </table>
+
+
+    <h1>To make a collum span when value is same</h1>
+
+    <table border="3">
+        <thead>
+            <th>student id</th>
+            <th>name</th>
+            <th>gender</th>
+            <th>age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">1231</td>
+               
+                <!-- WHEN ALL VALUE IS SMAE TO USE colspan key wold -->
+            </tr>
+
+            <tr>
+                <td>1232</td>
+                <td>ROHAN</td>
+                <td>MALE</td>
+                <td >20</td>
+
+            </tr>
+            <tr>
+                <td>1233</td>
+                <td>RAHUL</td>
+                <td>MALE</td>
+                <td >19</td>
+
+
+
+        </tbody>
+    </table><br>
+
+<h1>new style collom and row span</h1>
+    <table border="2">
+<thead>
+    <tr>
+        <td>Colum 0</td>
+        <td>Colum 1</td>
+        <td>Colum 2</td>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td rowspan="2" >Row 1 Cell 1</td>
+        <td>row 1 cell 2</td>
+        <td>Row 1 cell 3</td>
+    </tr>
+    <tr>
+        
+        <td>Row 2 cell 2</td>
+        <td>Row 2 cell 3</td>
+    </tr>
+    <tr>
+        <td colspan="3">Row 3 cell 1</td>
+    </tr>
+</tbody>
+    </table>
+
+<br>
+
+<table border="2">
+    <thead>
+        <tr>
+            <td>NO.</td>
+            <td>Full Name</td>
+            <td>Position</td>
+            <td>Salary</td>
+            <td>Type</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Founder Microsoft</td>
+            <td>$1000</td>
+            <td rowspan="4">company Founder</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>$1200</td>
+        </tr>     <tr>
+            <td>3</td>
+            <td>Larry page</td>
+            <td>Founder Google</td>
+            <td>$1100</td>
+        </tr>     <tr>
+            <td>4</td>
+            <td>Mark Zuckebery</td>
+            <td>Founder Facebook</td>
+            <td>$1300</td>
+        </tr>
+    </tbody>
+
+     <tfoot>
+    <tr>
+        <td colspan="3">Total Expenses:</td>
+        
+        <td>$4600</td>
+    </tr>
+     </tfoot>
+</table>
+
+
+<h1>new table</h1>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Country</th>
+            <td>Stae</td>
+            <td>City</td>
+            <td>Street</td>
+            <td>Male</td>
+            <td>Female</td>
+            <td>Others</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+
+            <td rowspan="8">1</td>
+            <td rowspan="4">Kerala</td>
+            <td rowspan="2">Cochin</td>
+            <td>New Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            
+            <td>Main Street</td>
+            <td>300</td>
+            <td>288</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Trivandrum</td>
+            <td>GuruStreet</td>
+            <td>500</td>
+            <td>600</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            
+            <td>TVK Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Maharastra</td>
+            <td rowspan="2">Mumbai</td>
+            <td>Krisha Street</td>
+            <td>300</td>
+            <td>288</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            
+            <td>Main Street</td>
+            <td>300</td>
+            <td>288</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Surath</td>
+            <td>New Street</td>
+            <td>300</td>
+            <td>288</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            
+            <td>Bills Street</td>
+            <td>300</td>
+            <td>288</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Alaska</td>
+     <td rowspan="2">ANK Central</td>
+     <td>New street</td>
+            <td>300</td>
+            <td>288</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            
+            <td>Cross Street</td>
+            <td>300</td>
+            <td>288</td>
+            <td>2</td>
+        </tr>
+    </tbody>
+
+</table>
+
+</body>
+
+</html>

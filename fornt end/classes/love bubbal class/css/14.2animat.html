@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        height: 100vw;
+        width: 100vw;
+        background-color: rgb(191, 150, 89);
+        border: 5px solid black;
+    
+    }
+    .box{
+        width: 350px;
+        height: 80px;
+        background-color: rgb(93, 150, 255);
+        border: 1px solid rgb(155, 41, 142);
+        border-radius: 10px;
+        margin: 10px;
+
+
+        position: relative;
+        /* FIRST CREATE A NAME  */
+        animation-name: rightmove;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-duration: 5s;
+    
+        animation-direction: alternate;
+        animation-fill-mode: none;
+
+        animation-delay: 2s;
+    
+    }
+
+    /* USING THE KEYFREAM TO MOVETHE SET KEY movevright  */
+    @keyframes rightmove {
+        from{
+            top: 0;
+            left: 0;
+        }
+        to{
+            top: 0;
+            left: 1000px;
+        }
+    }
+
+#box2{
+    width: 350px;
+        height: 80px;
+        background-color: rgb(93, 150, 255);
+        border: 1px solid rgb(155, 41, 142);
+        border-radius: 10px;
+        margin: 10px;
+        position: relative;
+        animation-name: leftmove;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-duration: 5s;
+    
+        animation-direction: alternate;
+        animation-fill-mode: none;
+
+        animation-delay: 2s;
+       
+}
+@keyframes leftmove{
+    from {
+     top: 680px;
+    left: 1350px;
+        }
+        to {
+            top: 680px;
+            left: 0;
+        }
+}
+
+
+
+#circle{
+    width: 200px;
+        height: 200px;
+        background-color: rgb(93, 150, 255);
+        border: 3px solid rgb(155, 41, 142);
+        border-radius: 100px;
+        margin: 10px;
+        position: relative;
+        top: 30%;
+        left: 40%;
+
+        
+}
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="box"></div>
+    <div id="circle"> </div>
+
+    <div id="box2"></div>
+   </div>
+
+</body>
+</html>

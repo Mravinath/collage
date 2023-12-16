@@ -1,0 +1,37 @@
+.container{
+height: 100vw;
+width: 100vw;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    border: 2x solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+/* margin: auto; */
+
+transition: all 3s 1s;
+}
+.box:hover{
+    /* transform: rotate(90deg); */
+
+
+    /* transform: scale(0.5); */
+
+    /* transform: rotate(45deg); */
+
+    transform: translate(0px, 500px);
+}
+
+p{
+    font-size: larger;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.container{
+        height: 100vw;
+        width: 100vw;
+        background-color: rgb(191, 150, 89);
+        border: 5px solid black;
+    
+    
+}        
+
+.box{
+        width: 30px;
+        height: 30px;
+        background-color: #455;
+        border-radius: 10px;
+        margin: 10px;
+        border: 3px solid red;
+        position: relative;
+        /* FIRST CREATE A NAME  */
+        animation-name: rightmove ;
+
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-delay: 2s;
+    
+    }
+
+    /* USING THE KEYFREAM TO MOVETHE SET KEY movevright  */
+    @keyframes rightmove {
+        from {
+     top: 0;
+    left: 0;
+        }
+        to {
+            top: 0;
+            left: 1350px;
+            bottom: 100px;
+        }
+
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+
+</body>
+</html>
